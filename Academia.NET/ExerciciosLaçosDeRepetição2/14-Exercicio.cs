@@ -10,7 +10,11 @@ namespace Academia.NET.ExerciciosLaçosDeRepetição2
     {
         public static void loop2()
         {
-
+            for (int index = 0; index <= 10; index++)
+            {
+                double resultado = Math.Pow(2, index);
+                Console.WriteLine($"2^{index} = {resultado}");
+            }
         }
     }
 }

@@ -11,7 +11,7 @@ internal class Program
     {
         //exercicioSelecao._1_Exercicio.selecao();
         //exercicioLoop._1_Exercicio.loop();
-        exercicioLoop2._5_Exercicio.loop2();
+        //exercicioLoop2._1_Exercicio.loop2();
         //exercicioSequenciais._1_Exercicio.sequenciais();
     }
 }
