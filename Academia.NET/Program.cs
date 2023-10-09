@@ -14,6 +14,6 @@ internal class Program
         //exercicioLoop._1_Exercicio.loop();
         //exercicioLoop2._1_Exercicio.loop2();
         //exercicioSequenciais._1_Exercicio.sequenciais();
-        exercicioVetores._12_Exercicio.vetores();
+        exercicioVetores._13_Exercicio.vetores();
     }
 }
