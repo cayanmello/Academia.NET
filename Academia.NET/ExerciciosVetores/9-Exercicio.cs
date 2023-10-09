@@ -26,7 +26,7 @@ namespace Academia.NET.ExerciciosVetores
             Array.Sort(vetorOrdenado);
 
             Console.WriteLine("Vetor Ordenado em Ordem Crescente:");
-            foreach (var num in vetorOrdenado)
+            foreach (int num in vetorOrdenado)
             {
                 Console.Write($"{num} ");
             }
