@@ -3,6 +3,7 @@ using exercicioSequenciais = Academia.NET.ExercicioSequenciais;
 using exercicioLoop = Academia.NET.ExerciciosLaçosDeRepetição;
 using exercicioLoop2 = Academia.NET.ExerciciosLaçosDeRepetição2;
 using exercicioVetores = Academia.NET.ExerciciosVetores;
+using exercicioMatrizes = Academia.NET.ExerciciosMatrizes;
 
 namespace Academia.NET;
 
@@ -14,6 +15,7 @@ internal class Program
         //exercicioLoop._1_Exercicio.loop();
         //exercicioLoop2._1_Exercicio.loop2();
         //exercicioSequenciais._1_Exercicio.sequenciais();
-        exercicioVetores._16_Exercicio.vetores();
+        //exercicioVetores._1_Exercicio.vetores();
+        exercicioMatrizes._1_Exercicio.matrizes();
     }
 }
