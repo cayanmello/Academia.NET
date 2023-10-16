@@ -16,6 +16,6 @@ internal class Program
         //exercicioLoop2._1_Exercicio.loop2();
         //exercicioSequenciais._1_Exercicio.sequenciais();
         //exercicioVetores._1_Exercicio.vetores();
-        exercicioMatrizes._3_Exercicio.matrizes();
+        exercicioMatrizes._4_Exercicio.matrizes();
     }
 }
