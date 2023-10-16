@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,6 +11,8 @@ namespace Academia.NET.ExerciciosMatrizes
     {
         public static void matrizes()
         {
+            //3) Popule uma matriz 4x4 e mostre os elementos da Diagonal Principal!
+
             int[,] matriz = new int[4, 4];
 
             Console.WriteLine("Preencha a matriz 4x4:");

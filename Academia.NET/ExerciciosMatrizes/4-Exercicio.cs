@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -10,6 +11,13 @@ namespace Academia.NET.ExerciciosMatrizes
     {
         public static void matrizes()
         {
+            //4) Popule uma matriz 5x5 e informe:
+            //-Quantos números são pares
+            //- Quantos números são impares
+            //- Quantos números são positivos
+            //- Quantos números são negativos
+            //- Quantos zeros existem!
+
             int[,] matriz = new int[5, 5];
 
             int numerosPares = 0;

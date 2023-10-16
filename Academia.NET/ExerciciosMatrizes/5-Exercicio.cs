@@ -10,6 +10,9 @@ namespace Academia.NET.ExerciciosMatrizes
     {
         public static void matrizes()
         {
+            //5) Leia duas matrizes 2x3 de números double.
+            //Imprima a soma destas duas matrizes.
+
             int linhas = 2;
             int colunas = 3;
 
