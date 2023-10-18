@@ -4,6 +4,7 @@ using exercicioLoop = Academia.NET.ExerciciosLaçosDeRepetição;
 using exercicioLoop2 = Academia.NET.ExerciciosLaçosDeRepetição2;
 using exercicioVetores = Academia.NET.ExerciciosVetores;
 using exercicioMatrizes = Academia.NET.ExerciciosMatrizes;
+using exercicioFuncoes = Academia.NET.ExerciciosFunções;
 
 namespace Academia.NET;
 
@@ -17,5 +18,6 @@ internal class Program
         //exercicioSequenciais._1_Exercicio.sequenciais();
         //exercicioVetores._1_Exercicio.vetores();
         //exercicioMatrizes._1_Exercicio.matrizes();
+        exercicioFuncoes._2_Exercicio.funcoes();
     }
 }
