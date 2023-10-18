@@ -10,8 +10,7 @@ namespace Academia.NET.ExerciciosFunções
     {
         public static void funcoes()
         {
-
-
+            
         }
     }
 }
