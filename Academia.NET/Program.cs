@@ -20,6 +20,6 @@ internal class Program
         //exercicioVetores._1_Exercicio.vetores();
         //exercicioMatrizes._1_Exercicio.matrizes();
         //exercicioFuncoes._1_Exercicio.funcoes();
-        exercicioFuncoes2._1_Exercicio.funcoes2();
+        exercicioFuncoes2._2_Exercicio.funcoes2();
     }
 }

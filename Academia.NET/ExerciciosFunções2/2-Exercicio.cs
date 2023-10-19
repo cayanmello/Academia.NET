@@ -16,6 +16,40 @@ namespace Academia.NET.ExerciciosFunções2
             //    e retorna a média dos valores conforme a escolha do usuário.
 
 
+            int[] numeros = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+
+            Console.WriteLine("Escolha uma opção:");
+            Console.WriteLine("1 - Calcular média dos números pares");
+            Console.WriteLine("2 - Calcular média dos números ímpares");
+            int escolha = int.Parse(Console.ReadLine());
+
+            double media = CalcularMedia(numeros, escolha);
+            Console.WriteLine($"A média dos números é: {media}");
+        }
+
+        static double CalcularMedia(int[] numeros, int escolha)
+        {
+            int soma = 0;
+            int contador = 0;
+
+            foreach (int numero in numeros)
+            {
+                if ((escolha == 1 && numero % 2 == 0) || (escolha == 2 && numero % 2 != 0))
+                {
+                    soma += numero;
+                    contador++;
+                }
+            }
+
+            if (contador > 0)
+            {
+                return (double)soma / contador;
+            }
+            else
+            {
+                Console.WriteLine("Nenhum número correspondente foi encontrado.");
+                return 0;
+            }
         }
     }
 }
