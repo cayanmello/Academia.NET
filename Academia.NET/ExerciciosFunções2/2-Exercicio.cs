@@ -16,7 +16,16 @@ namespace Academia.NET.ExerciciosFunções2
             //    e retorna a média dos valores conforme a escolha do usuário.
 
 
-            int[] numeros = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            Console.WriteLine("Digite a quantidade de números que deseja inserir:");
+            int tamanho = int.Parse(Console.ReadLine());
+
+            int[] numeros = new int[tamanho];
+
+            for (int i = 0; i < tamanho; i++)
+            {
+                Console.Write($"Digite o {i + 1}º número: ");
+                numeros[i] = int.Parse(Console.ReadLine());
+            }
 
             Console.WriteLine("Escolha uma opção:");
             Console.WriteLine("1 - Calcular média dos números pares");
