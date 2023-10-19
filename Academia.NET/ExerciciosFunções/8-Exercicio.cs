@@ -41,5 +41,6 @@ namespace Academia.NET.ExerciciosFunções
                     Console.WriteLine(numero + " é um número ímpar.");
                 }
             }
+        }
     }
 }
