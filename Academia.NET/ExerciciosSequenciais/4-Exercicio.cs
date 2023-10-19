@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Academia.NET.ExercicioSequenciais
+namespace Academia.NET.ExerciciosSequenciais
 {
     internal class _4_Exercicio
     {
