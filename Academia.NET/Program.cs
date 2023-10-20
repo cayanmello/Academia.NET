@@ -13,13 +13,13 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        //exercicioSelecao._1_Exercicio.selecao();
-        //exercicioLoop._1_Exercicio.loop();
-        //exercicioLoop2._1_Exercicio.loop2();
-        //exercicioSequenciais._1_Exercicio.sequenciais();
-        //exercicioVetores._1_Exercicio.vetores();
-        //exercicioMatrizes._1_Exercicio.matrizes();
-        //exercicioFuncoes._1_Exercicio.funcoes();
-        exercicioFuncoes2._7_Exercicio.funcoes2();
+        //exercicioSelecao._01_Exercicio.selecao();
+        //exercicioLoop._01_Exercicio.loop();
+        //exercicioLoop2._01_Exercicio.loop2();
+        //exercicioSequenciais._01_Exercicio.sequenciais();
+        //exercicioVetores._01_Exercicio.vetores();
+        //exercicioMatrizes._01_Exercicio.matrizes();
+        //exercicioFuncoes._01_Exercicio.funcoes();
+        exercicioFuncoes2._04_Exercicio.funcoes2();
     }
 }
